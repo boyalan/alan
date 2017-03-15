@@ -1,6 +1,10 @@
+
 eeeee
 1111
 3333
 啦啦啦
 一起摇摆
+
+ git clone git@github.com:boyalan/alan.git
+
 
