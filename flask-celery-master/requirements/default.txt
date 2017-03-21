@@ -1,2 +1,0 @@
-Flask-Script>=0.3.3
-celery>=2.2.0
