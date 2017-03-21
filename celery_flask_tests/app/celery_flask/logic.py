@@ -1,4 +1,4 @@
-#coding:utf-8
+﻿#coding:utf-8
 from smtplib import SMTP_SSL
 from email.mime.text import MIMEText
 from email.header import Header
@@ -7,12 +7,11 @@ from email.header import Header
 
 def do_send_email(fromemail, toemail, subject, content):
 
-    #server.login("1443556385@qq.com", "zmudpwcqciiujbdg")
     host_server = 'smtp.qq.com'
     # sender_qq为发件人的qq号码
     sender_qq = fromemail
     # pwd为qq邮箱的授权码
-    pwd = 'zmudpwcqciiujbdg'
+    pwd = 'passwordcode'
     # 发件人的邮箱
     sender_qq_mail = fromemail
     # 收件人邮箱
